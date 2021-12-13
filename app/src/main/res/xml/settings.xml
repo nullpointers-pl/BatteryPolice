@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Poziomy ostrzeżeń">
+        /* TODO: implement range settings */
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Powiadomienia">
+        <SwitchPreference
+            android:buttonTint="#673AB7"
+            android:defaultValue="false"
+            android:key="send_notifs"
+            android:singleLineTitle="false"
+            android:title="Powiadamiaj o przekraczaniu ustawionych poziomów" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
